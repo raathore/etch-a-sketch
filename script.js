@@ -75,7 +75,7 @@ gsButton.addEventListener('click', function(e){
 //Change grid size (Max=64)
 let changeGridButton = document.querySelector("button#changeGrid");
 changeGridButton.addEventListener('click', function(e){
-    n = prompt('Enter grid size (number of squares) ? [Max 64]');
+    n = prompt('Enter new grid size. (Maximum = 64)');
     if(n>64){
       n=64;
     }
